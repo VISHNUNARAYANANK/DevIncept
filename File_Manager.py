@@ -58,3 +58,22 @@ def move_file():
     else:
         shutil.move(source, destination)  
         mb.showinfo('confirmation', "File Moved !")
+
+        
+ 
+
+# function to remove a folder
+def remove_folder():
+    delFolder = filedialog.askdirectory()
+    os.rmdir(delFolder)
+    mb.showinfo('confirmation', "Folder Deleted !")
+
+# function to list all the files in folder
+def list_files():
+    folderList = filedialog.askdirectory()
+    sortlist=sorted(os.listdir(folderList))
+    i=0
+    print("Files in ", folderList, "folder are:")
+    while(i<len(sortlist)):
+        print(sortlist[i]+'\n')
+        i+=1
