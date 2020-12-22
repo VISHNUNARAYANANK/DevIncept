@@ -1,2 +1,2 @@
 # DevIncept
-This is group Project
+This is a group Project
