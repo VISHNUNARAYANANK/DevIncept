@@ -77,3 +77,31 @@ def list_files():
     while(i<len(sortlist)):
         print(sortlist[i]+'\n')
         i+=1
+
+# UI for file manager
+
+root = Tk()
+
+
+# creating label and buttons to perform operations
+Label(root, text="File Manager", font=("Helvetica", 16), fg="blue").grid(row = 5, column = 2)
+
+Button(root, text = "Open a File", command = open_file).grid(row=20, column =2)
+
+Button(root, text = "Copy a File", command = copy_file).grid(row = 20, column = 4)
+
+Button(root, text = "Delete a File", command = delete_file).grid(row = 40, column = 2)
+
+Button(root, text = "Rename a File", command = rename_file).grid(row = 40, column = 4)
+
+Button(root, text = "Move a File", command = move_file).grid(row = 60, column =2)
+
+Button(root, text = "Make a Folder", command = make_folder).grid(row = 60, column = 4)
+
+Button(root, text = "Remove a Folder", command = remove_folder).grid(row = 80, column =2)
+
+Button(root, text = "List all Files in Directory", command = list_files).grid(row = 80,column = 4)
+
+
+
+root.mainloop()
