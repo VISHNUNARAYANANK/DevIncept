@@ -39,7 +39,7 @@ Tkinter has two types of layout managers, grid and pack. For layout simplicity, 
 **Button()** function placed in root window with text specified as text=”..” . The next parameter, “command” specifies the function which gets executed whenever a button is clicked. Please note, the function is specified without brackets in the statement. Similar to label, in every grid widget, we can specify row and column. To place the buttons one below the other, we specify the same column number, but change the row according to our need.
 ## File Manger Output:
 
-
+<img src ="https://user-images.githubusercontent.com/62782231/102963488-3ae76000-450f-11eb-9e59-c17632899e4e.png" width = "1000">
 
 
 
