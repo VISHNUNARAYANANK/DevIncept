@@ -15,3 +15,4 @@ Our goal in this project is to come with our file manager.
 In this step, we will define all the functions which will be linked afterward to different buttons
 * **Opening a file box:** It opens the file box,i.e the pop-up box to choose the file from the device, which opens every time we run the code. 
 fileopenbox() is the method in easyGUI module which returns the path of the chosen file as a string.
+
