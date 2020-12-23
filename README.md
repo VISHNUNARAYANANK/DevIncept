@@ -7,7 +7,7 @@ The most common operations perfomed on files or group of files include **Creatin
 A file nanager is a computer program that provides a user interface to manage files. and folders.
 The most common operations perfomed on files or group of files include **Creating, opening,renaming,moving,deleting, etc.**
 * ## Steps to bulild File Manager in Python
-Our goal in this project is to come with our file manager.
+Our goal in this project is to come with our own file manager.
 ## Step 1: Importing all required modules
 * We will import the following modules:
 * **Tkinter:** It provides wide API for GUI functionlities.
