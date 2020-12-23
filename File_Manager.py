@@ -58,6 +58,17 @@ def move_file():
     else:
         shutil.move(source, destination)  
         mb.showinfo('confirmation', "File Moved !")
+        
+ # function to make a new folder
+def make_folder():
+    newFolderPath = filedialog.askdirectory()
+    print("Enter name of new folder")
+
+    newFolder=input()
+    path = os.path.join(newFolderPath, newFolder)  
+
+    os.mkdir(path)
+    mb.showinfo('confirmation', "Folder created !")
 
         
  
